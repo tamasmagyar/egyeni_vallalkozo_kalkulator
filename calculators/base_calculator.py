@@ -8,5 +8,5 @@ class BaseCalculator:
         self.revenue = revenue
 
     @abstractmethod
-    def calculate(self):
+    def calculate(self, **kwargs):
         pass
